@@ -11,7 +11,7 @@ const app=express()
 app.use(express.json())
 // integrate frontend with server
 const cors=require('cors')
-app.use(cors({origin:'http://localhost:4200'}))
+app.use(cors({origin:'https://visionary-cucurucho-aea2b5.netlify.app/'}))
 
 //import jwt
 
